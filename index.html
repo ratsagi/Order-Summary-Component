@@ -13,37 +13,40 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
   <article>
-    <img src="images/illustration-hero.svg" alt="woman is listening to music with airpods and dancing" srcset="">
-    <section class="order-summary-component">
-      <h1 class="order-summary-component__title" >Order Summary</h1>
-      <p class="order-summary-component__description">You can now listen to millions of songs, audiobooks, and podcasts on any 
+    <img src="images/illustration-hero.svg" alt="woman is listening to music with airpods and dancing" srcset="" class="round-top">
+    <section class="order-summary-component round-bottom">
+      <div class="order-summary-container">
+          <h2 class="order-summary-component__title" >Order Summary</h2>
+         <p class="order-summary-component__description">You can now listen to millions of songs, audiobooks, and podcasts on any 
   device anywhere you like!</p>
-  <div class="order">
-    <img src="images/icon-music.svg" alt="" srcset="" width="48" height="48">
-    <p class="order__name">Annual Plan</p>
-    <p class="order__price">$59.99/year</p>
+      
+      
+  <div class="order round">
+    <div class="order-container">
+        <img src="images/icon-music.svg" alt="" srcset="" width="48" height="48">
+      <div class="order__details">
+      <p class="order__name">Annual Plan</p>
+      <p class="order__price">$59.99/year</p>
+      </div>
+    </div>
     <a href="#" class="change-order"> Change</a>
   </div>
+  </div>
   <div class="buttons">
-    <button>Proceed to Payment</button>
-      <button>Cancel Order</button>
+   <a href="#" class="proceedToPayment round">Proceed to Payment</a>
+   <a href="#" class="cancelOrder">Cancel Order</a>
   </div>
     </section>
   </article>
 </main>
- 
- 
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
