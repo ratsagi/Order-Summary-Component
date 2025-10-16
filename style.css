@@ -189,6 +189,8 @@ article{
   background-color: var(--blue-700);
   color: var(--white);
   font-weight: 900;
+  box-shadow: 0px 20px 20px var(--blue-150);
+
  }
   .proceedToPayment:active{
   background-color: var(--purple-500);
