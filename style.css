@@ -177,11 +177,13 @@ article{
   color: var(--purple-500);
  }
 
- .buttons a{
-  display: block;
+ .buttons {
+  display: grid;
   text-align: center;
-  text-decoration: none;
-  
+ }
+ button{
+  cursor: pointer;
+  border: none;
  }
  .proceedToPayment{
   /* padding: var(--s-12px)  var(--s-97px); */
@@ -200,6 +202,7 @@ article{
 .cancelOrder{
  color: var(--gray-600);
  font-weight: 900;
+ background:none;
 }
 .cancelOrder:active,
 .cancelOrder:hover{
